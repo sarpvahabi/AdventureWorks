@@ -1,1 +1,0 @@
-= Table.AddColumn(#"Rounded Down", "AgeSegment", each if [Age] < 18 then "18-" else if [Age] < 26 then "18-25" else if [Age] < 36 then "26-35" else if [Age] < 46 then "36-45" else if [Age] < 56 then "46-55" else "55+", type text)
